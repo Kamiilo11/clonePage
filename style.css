@@ -1,0 +1,29 @@
+:root {
+    --soft-blue: #8ecae6;
+    --ocean-blue: #219ebc;
+    --dark-blue: #023047;
+    --dessert-yellow: #ffb703;
+    --tangerine-orange: #fb8500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark-blue);
+}
+
+.nav-bar__img-container {
+    align-self: flex-start;
+}
