@@ -99,6 +99,7 @@ h1 {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    margin: 0 30px;
 }
 
 /*Bonus cards*/
