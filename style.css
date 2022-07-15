@@ -273,3 +273,113 @@ h1 {
 }
 
 /*Seccion de recomendacion*/
+
+.main-recomended-bets {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 35px;
+}
+
+.main-recomended-bets__title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-family: "Exo", sans-serif;
+    color: var(--tangerine-orange);
+    margin: 10px 0 0;
+    padding-left: 2px;
+}
+
+.main-recomended-bets__subtitle {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--ocean-blue);
+    margin: 10px 0 0;
+    padding: 10px 0;
+    background-color: var(--fondo);
+}
+
+/*Apuestas recomendadas*/
+
+.main-recomended-bets__card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 830px;
+    height: auto;
+    border-bottom: 3px solid var(--fondo);
+}
+
+.main-recomended-bets__card-text p:nth-child(1) {
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    margin: 10px 0;
+}
+
+.main-recomended-bets__card-text p:nth-child(2) {
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+    margin: 10px 0;
+}
+
+.main-recomended-bets__card-text p:nth-child(3) {
+    font-size: 1.1rem;
+    color: var(--tangerine-orange);
+    margin: 10px 0;
+}
+
+.main-recomended-bets__card-odds {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-recomended-bets__card-odds div:nth-child(1) {
+    background-color: var(--dessert-yellow);
+    width: 30%;
+    height: 50%;
+    align-self: center;
+    border-radius: 3px;
+    display: flex;
+}
+
+.main-recomended-bets__card-odds div:nth-child(1) p {
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.main-recomended-bets__card-odds div:nth-child(2) {
+    background-color: var(--dessert-yellow);
+    width: 30%;
+    height: 50%;
+    align-self: center;
+    border-radius: 3px;
+    display: flex;
+}
+
+.main-recomended-bets__card-odds div:nth-child(2) p {
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.main-recomended-bets__card-odds div:nth-child(3) {
+    background-color: var(--dessert-yellow);
+    width: 30%;
+    height: 50%;
+    align-self: center;
+    border-radius: 3px;
+    display: flex;
+}
+
+.main-recomended-bets__card-odds div:nth-child(3) p {
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
