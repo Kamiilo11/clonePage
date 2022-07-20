@@ -383,3 +383,75 @@ h1 {
     font-weight: bold;
     color: var(--dark-blue);
 }
+
+/*Confirmacion de apuesta*/
+
+.confirm-bet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto-content);
+    width: 100%;
+    max-width: 830px;
+    height: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.confirm-bet-container {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.confirm-bet-container h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--dark-blue);
+    margin: 0;
+    height: auto;
+}
+
+.confirm-bet__currency-container {
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+.confirm-bet__currency-container input {
+    width: 80%;
+    max-width: 306px;
+    height: 3.6rem;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+}
+
+.confirm-bet__button-container {
+    grid-area: 3 / 1 / 4 / 4;
+    margin: 15px 0;
+}
+
+.confirm-bet__button-container .confirm-bet__button-container__button {
+    width: 80%;
+    max-width: 306px;
+    height: 4.8rem;
+    border: none;
+    background-color: var(--dark-blue);
+    color: var(--tangerine-orange);
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.confirm-bet__line1 {
+    background-image: url(https://icones.pro/wp-content/uploads/2021/04/icone-trait-gris.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.confirm-bet__line2 {
+    background-image: url(https://icones.pro/wp-content/uploads/2021/04/icone-trait-gris.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
