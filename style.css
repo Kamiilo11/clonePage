@@ -100,7 +100,7 @@ h1 {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    margin: 0 30px;
+    margin: 0 25px;
 }
 
 /*Bonus cards*/
@@ -134,7 +134,7 @@ h1 {
     font-weight: bold;
     line-height: 1.8rem;
     font-family: "Exo", sans-serif;
-    color: var(--tangerine-orange);
+    color: var(--ocean-blue);
 }
 
 .bonus-card__text-container p {
@@ -194,7 +194,7 @@ h1 {
     font-weight: bold;
     line-height: 1.8rem;
     font-family: "Exo", sans-serif;
-    color: var(--tangerine-orange);
+    color: var(--ocean-blue);
 }
 
 .bonus-sport-card__text-container p {
@@ -423,6 +423,7 @@ h1 {
     display: block;
     margin: 0 auto;
     border: 1px solid gainsboro;
+    font-family: "Exo", Helvetica;
 }
 
 .confirm-bet__button-container {
@@ -436,10 +437,12 @@ h1 {
     height: 4.8rem;
     border: none;
     background-color: var(--dark-blue);
-    color: var(--tangerine-orange);
+    color: var(--dessert-yellow);
     border-radius: 5px;
     display: block;
     margin: 0 auto;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.4rem;
 }
 
 .confirm-bet__line1 {
@@ -454,4 +457,228 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;
+}
+
+/*Seccion de casinos fisicos*/
+
+.main-casinos-title {
+    font-family: "Exo", sans-serif;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: var(--tangerine-orange);
+    margin: 28px 0 14px 3px;
+}
+
+.main-casinos-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 380px;
+    gap: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 25px;
+}
+
+
+/*Tarjeta 1*/
+
+.main-casinos__card {
+    width: 80%;
+    max-height: 380px;
+    max-width: 288px;
+    min-width: 280px;
+    margin: 0 auto 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.34);
+    scroll-snap-align: center;
+}
+
+.main-casinos__card-title {
+    font-size: 2rem;
+    font-family: "Exo", sans-serif;
+    line-height: 2rem;
+    padding: 14px;
+    margin: 0;
+    color: var(--ocean-blue);
+}
+
+.main-casinos__card-img-container {
+    width: 90%;
+    height: 8rem;
+    margin: 0 auto 6px;
+    background-image: url(https://cdn.dribbble.com/users/3131958/screenshots/15636795/media/6a87b201ef03c893d8df90227618c5d5.png?compress=1&resize=400x300&vertical=top);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-casinos__card-text1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px 14px 0;
+    margin: 0;
+}
+
+.main-casinos__card-text2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px;
+    margin: 0;
+}
+
+/*Tarjeta 2*/
+
+.main-casinos__card2 {
+    width: 80%;
+    max-height: 380px;
+    max-width: 288px;
+    min-width: 280px;
+    margin: 0 auto 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.34);
+    scroll-snap-align: center;
+}
+
+.main-casinos__card-title2 {
+    font-size: 2rem;
+    font-family: "Exo", sans-serif;
+    line-height: 2rem;
+    padding: 14px;
+    margin: 0;
+    color: var(--ocean-blue);
+}
+
+.main-casinos__card-img-container2 {
+    width: 90%;
+    height: 8rem;
+    margin: 0 auto 6px;
+    background-image: url(https://moccobeachvilla.co.tz/wp-content/uploads/2021/10/cropped-mocco-icon-512x512-150x150-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.main-casinos__card-text1-2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px 14px 0;
+    margin: 0;
+}
+
+.main-casinos__card-text2-2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px;
+    margin: 0;
+}
+
+/*Tarjeta 3*/
+
+.main-casinos__card3 {
+    width: 80%;
+    max-height: 380px;
+    max-width: 288px;
+    min-width: 280px;
+    margin: 0 auto 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.34);
+    scroll-snap-align: center;
+}
+
+.main-casinos__card-title3 {
+    font-size: 2rem;
+    font-family: "Exo", sans-serif;
+    line-height: 2rem;
+    padding: 14px;
+    margin: 0;
+    color: var(--ocean-blue);
+}
+
+.main-casinos__card-img-container3 {
+    width: 90%;
+    height: 8rem;
+    margin: 0 auto 6px;
+    background-image: url(https://therollingpictures.com/wp-content/uploads/2021/03/restaurant-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.main-casinos__card-text1-3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px 14px 0;
+    margin: 0;
+}
+
+.main-casinos__card-text2-3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px;
+    margin: 0;
+}
+
+/*Tarjeta 4*/
+
+.main-casinos__card4 {
+    width: 80%;
+    max-height: 380px;
+    max-width: 288px;
+    min-width: 280px;
+    margin: 0 auto 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.34);
+    scroll-snap-align: center;
+}
+
+.main-casinos__card-title4 {
+    font-size: 2rem;
+    font-family: "Exo", sans-serif;
+    line-height: 2rem;
+    padding: 14px;
+    margin: 0;
+    color: var(--ocean-blue);
+}
+
+.main-casinos__card-img-container4 {
+    width: 90%;
+    height: 8rem;
+    margin: 0 auto 6px;
+    background-image: url(https://www.wayfarersatlas.com/wp-content/uploads/2017/12/WA-Symbol-Island-Paradise-150x150.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+.main-casinos__card-text1-4 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px 14px 0;
+    margin: 0;
+}
+
+.main-casinos__card-text2-4 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    padding: 14px;
+    margin: 0;
 }
