@@ -1116,8 +1116,9 @@ h1 {
     height: 100%;
     background-image: url(https://pbs.twimg.com/profile_images/496477275295338496/hZ4VSNZn_400x400.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: 40%;
+    margin-left: 10px;
 }
 
 .footer-social__media-container {
@@ -1180,6 +1181,8 @@ h1 {
     width: 100%;
     height: auto;
     border-bottom: 1px solid gray;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .footer-responsible__list-container ul {
@@ -1187,11 +1190,141 @@ h1 {
     padding: 0;
 }
 
+/*Item 1*/
+
+.footer-responsible__item1 {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
 .footer-responsible__logo1 {
-    width: 10px;
-    height: 10px;
-    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0-%D1%8E%D1%82%D1%83%D0%B1-png-1.png);
+    width: 7%;
+    height: auto;
+    background-image: url(https://aux.iconspalace.com/uploads/245344352.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 75%;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.footer-responsible__item1 p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--dark-blue);
+}
+
+/*Item 2*/
+
+.footer-responsible__item2 {
+    display: flex;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.footer-responsible__logo2 {
+    width: 7%;
+    height: auto;
+    background-image: url(https://www.ethnicmusical.com/wp-content/uploads/2019/04/lock-icon-transparent-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 3px;
+}
+
+.footer-responsible__item2 p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--dark-blue);
+}
+
+/*Item 3*/
+
+.footer-responsible__item3 {
+    display: flex;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.footer-responsible__logo3 {
+    width: 6.5%;
+    height: auto;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/YT_Official_Verified_Checkmark_Circle.svg/800px-YT_Official_Verified_Checkmark_Circle.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.footer-responsible__item3 p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--dark-blue);
+}
+
+.footer-responsible__item3 a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+/*Item 4*/
+
+.footer-responsible__item4 {
+    display: flex;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.footer-responsible__logo4 {
+    width: 6.5%;
+    height: auto;
+    background-image: url(https://pngimg.com/uploads/question_mark/small/question_mark_PNG99.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.footer-responsible__item4 a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--dark-blue);
+}
+
+/*Ultima parte responsable footer*/
+
+.footer-responsible__text-container {
+    width: 80%;
+    max-width: 830px;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-responsible__text-container p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-blue);
+}
+
+/*+18 años footer*/
+
+.footer__age {
+    width: 100%;
+    height: 70px;
+    background-color: #e0e0e0;
+}
+
+.footer__age-container {
+    width: 20%;
+    height: 100%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/83/83580.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin: 0 auto;
 }
